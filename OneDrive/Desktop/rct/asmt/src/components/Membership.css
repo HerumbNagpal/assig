@@ -1,0 +1,48 @@
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid rgb(255, 238, 0);
+}
+.plan{
+    width: 375px;
+    border-right: 1.8rem solid rgb(255, 238, 0);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.plan:nth-child(1){
+    border-left: 0ch;
+}
+.plan:nth-child(4){
+    border-right: 0ch;
+}
+
+.name{
+    line-height: 100%;
+    padding: 3em 2em;
+    text-align: center;
+}
+.na{
+    min-height: 100px;
+}
+
+.price{
+    background-color: rgb(186, 255, 255);
+    padding: 1rem;
+}
+.rs{
+    font-size: 3rem;
+}
+
+.details{
+    padding: 3rem;
+}
+
+@media screen and (max-width : 500px) {
+    .plans{
+        display: none;
+    }
+    
+}
