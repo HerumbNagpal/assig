@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/assig/static/css/main.a9f3f01b.css",
+    "main.js": "/assig/static/js/main.7227e432.js",
+    "index.html": "/assig/index.html",
+    "main.a9f3f01b.css.map": "/assig/static/css/main.a9f3f01b.css.map",
+    "main.7227e432.js.map": "/assig/static/js/main.7227e432.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f3f01b.css",
+    "static/js/main.7227e432.js"
+  ]
+}
